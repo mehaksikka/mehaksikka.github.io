@@ -2211,7 +2211,7 @@ html.no-csstransitions .home-content__main {
     padding-right: 40px;
 }
 
-.about-content .right {
+.right {
     padding-left: 40px;
 }
 
@@ -2684,6 +2684,8 @@ html.no-csstransitions .home-content__main {
     width: 100%;
   }
 }
+
+
 
 /* ===================================================================
  * # testimonials - (_site-layout.scss)
