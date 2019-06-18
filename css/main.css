@@ -2226,11 +2226,22 @@ html.no-csstransitions .home-content__main {
 	position: relative;
     padding-left: 40px;
 }
+
+.project {
+	position: relative;
+    text-align: left;
+    margin-top: 3.6rem;
+}
  
 .timeline {
     position: relative;
     text-align: left;
     margin-top: 3.6rem;
+}
+
+.proj__desc {
+    margin: 0;
+    padding-bottom: 3rem;
 }
 
 .timeline::before {
