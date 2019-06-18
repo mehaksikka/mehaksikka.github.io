@@ -2364,18 +2364,9 @@ html.no-csstransitions .home-content__main {
 /* ------------------------------------------------------------------- 
  * ## bricks/masonry - (_site-layout.scss)
  * ------------------------------------------------------------------- */
-.s-works.right {
-	padding-top: 9rem;
-    padding-bottom: 9rem;
-	margin-bottom: 3rem;
+.rght {
 	position: relative;
     padding-left: 15rem;
-}
-
-.s-works.project {
-	position: relative;
-    text-align: left;
-    margin-top: 3.6rem;
 }
 
 .masonry-wrap {
