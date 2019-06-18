@@ -2211,7 +2211,7 @@ html.no-csstransitions .home-content__main {
     padding-right: 40px;
 }
 
-.right {
+.about-content.right {
     padding-left: 40px;
 }
 
@@ -2219,7 +2219,12 @@ html.no-csstransitions .home-content__main {
 /* ------------------------------------------------------------------- 
  * ## timeline - (_site-layout.scss) 
  * ------------------------------------------------------------------- */
-
+.right {
+	margin-bottom: 3rem;
+	position: relative;
+    padding-left: 40px;
+}
+ 
 .timeline {
     position: relative;
     text-align: left;
