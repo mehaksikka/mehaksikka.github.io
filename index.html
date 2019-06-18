@@ -239,60 +239,155 @@
 
     </section> <!-- end about -->
 
-    <section id="works" class="s-works target-section">
+<section id="portfolio">
 
-        <div class="row narrow section-intro has-bottom-sep">
-            <div class="col-full">
-                <h3>Portfolio</h3>
-                <h2>Some of the Projects I've worked on</h2>
-            </div>
-        </div>
+      <div class="row">
 
-        <div class="row masonry-wrap">
-              <div class="masonry">
-			  
-                   <div class="masonry__brick">
-                    <div class="item-folio">
+         <div class="twelve columns collapsed">
 
-                        <div class="item-folio__thumb">
-                            <a href="#modal-01" data-toggle="modal">
-                                <img src="images/portfolio/court3_630_630.jpg">
-                                <span class="shadow-overlay"></span>
-                            </a>
+            <h3>Below are some of the projects I've worked on.</h3>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img width="310" height="310" alt="" src="images/portfolio/clo-image.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Pittsburgh Civic Light Opera</h5>
+                              <p>Interactive Data Visualization</p>
+          					   </div>
                         </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
 
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Risk Assessment Instrument for Criminal Recidivism
-                            </h3>
-                            <p class="item-folio__cat">
-                                Data Mining
-                            </p>
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="">
+                        <img width="400" height="400" alt="" src="images/portfolio/mediminder.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>MediMinder</h5>
+                              <p>Watson Health Hackathon</p>
+          					   </div>
                         </div>
-						
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-03" title="">
+                        <img width="310" height="500" alt="" src="images/portfolio/dsc.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Citi Bike Challenge</h5>
+                              <p>Tartan Data Science Cup</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-04" title="">
+                        <img width="310" height="310" alt="" src="images/portfolio/nlp.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Wikipedia Question and Answering</h5>
+                              <p>Natural Langauge Final Project</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
 
 
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-							
-				</div>			
-					
-			<div id="modal-01" class="popup-modal mfp-hide">
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
 
 		      <div class="description-box">
-			      <h4>Risk Assessment Instrument for Criminal Recidivism</h4>
-			      <p><li>Predicted the likelihood of recidivism amongst criminals by constructing a RAI using random forests with 79% specificity.</li><li>Achieved a predictive improvement of 3% over an existing RAI called COMPAS across various traditional and cost-based metrics to help judges make unbiased bail decisions by synthetically up-sampling skewed data using SMOTE.</li></p>
+			      <h4>Pittsburgh Civic Light Opera</h4>
+			      <p>My group and I were asked to aid the Pittsburgh Civic Light Opera, an non-profit theatre group, analyze their data for new insights to prepare for their upcoming donation drives. I created an interactive tool to help visualize the ticketing and donor data using R Shiny and graphs made with ggplot. It was my first time using either, and a really great learning experience working as consultants for this organization.</p>
 		      </div>
 
             <div class="link-box">
-               <a href="Final_Project_Data_Mining.html">Html File</a>
+               <a href="https://ahavanur.shinyapps.io/clo-research-demo/">Demo</a>
+               <a href="https://github.com/ahavanur/clo-research-demo">Github</a>
 		         <a class="popup-modal-dismiss">Close</a>
             </div>
 
-	      </div><!-- modal-01 End -->		
-	       </div> <!-- end masonry -->
-      <!-- modal-01 End -->
-    </section> <!-- end works -->
+	      </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <div class="description-box">
+			      <h4>MediMinder - Conversational Medication Assistant</h4>
+			      <p>As part of the Health Hackathon, my team developed the MediMinder, a text-messaging service to help the parents of seriously ill young children maintain complicated medication schedules remotely. MediMinder used natural language processing and a secure database backend to remind kids about when to take their medication, match side effects to their cause, and notify parents of missed times or adverse reactions. Our team of undergrads placed 4th amongst all competitng teams across the country.</p>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://imgur.com/a/AZKrw">Demo</a>
+               <a href="https://github.com/israelhill/mediminder">Github</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-02 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <div class="description-box">
+			      <h4>Citi Bike Challenge</h4>
+			      <p>I competed in a team of 3 against 45 undergraduate teams of over 100 students to analyze a bike traffic dataset and determine the optimal location for two new bike stations in New York City, using machine learning and graph theory algorithms. Our team won the overall prize of a trophy and $250 in prize money based on the quality of code, a submitted written report, and an explanatory presentation to a panel of judges (http://www.cmu.edu/dietrich/news/news-stories/2016/march/tartan-analytics.html). </p>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/ahavanur/DSC">Github</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-03 End -->
+
+         <div id="modal-04" class="popup-modal mfp-hide">
+
+		      <div class="description-box">
+			      <h4>Wikipedia Question and Answering</h4>
+			      <p>For the final project for 11-441 Natural Language Processing, we developed a question and answering system that could generate a list of questions given a wikipedia article, and then answer questions using an article. I worked primarily on the answering system, tokenizing the input and using cosine similarity and tf-idf counts to find the sections of the text that would contain the answer to a given question.</p>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/rohan-n/twss-qa">Github</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-04 End -->
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
     <!-- testimonials
     ================================================== -->
     <div class="s-testimonials">
