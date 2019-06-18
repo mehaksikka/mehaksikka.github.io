@@ -2364,7 +2364,7 @@ html.no-csstransitions .home-content__main {
 /* ------------------------------------------------------------------- 
  * ## bricks/masonry - (_site-layout.scss)
  * ------------------------------------------------------------------- */
-.rght {
+.proj-desc {
 	position: relative;
     padding-left: 15rem;
 }
