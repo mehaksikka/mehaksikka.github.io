@@ -350,6 +350,7 @@ ul {
 
 li {
     display: list-item;
+	margin-bottom:12px;
 }
 
 ol, ul {
