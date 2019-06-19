@@ -2367,6 +2367,7 @@ html.no-csstransitions .home-content__main {
 .proj-desc {
 	position: relative;
     padding-left:150px;
+	margin-left:500px;
 }
 
 .masonry-wrap {
