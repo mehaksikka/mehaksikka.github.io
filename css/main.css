@@ -2395,6 +2395,8 @@ html.no-csstransitions .home-content__main {
 .item-folio {
     position: relative;
     overflow: hidden;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .item-folio__thumb img {
