@@ -2533,8 +2533,7 @@ html.no-csstransitions .home-content__main {
 .item-folio__text {
     position: absolute;
     left: 0;
-    bottom: 3rem;
-    padding: 0 3rem;
+    padding: 0;
     z-index: 2;
 }
 
