@@ -2600,18 +2600,6 @@ html.no-csstransitions .home-content__main {
 
 
 /* on hover */
-/* on hover */
-.item-folio:hover .overlay {
-	opacity: 1;
-	-moz-opacity: 1;
-	filter:alpha(opacity=100);
-}
-
-.item-folio:hover .link-icon {
-   opacity: 1;
-	-moz-opacity: 1;
-	filter:alpha(opacity=100);
-}
 
 
 .item-folio:hover .item-folio__thumb a::before {
