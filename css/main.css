@@ -2216,6 +2216,14 @@ html.no-csstransitions .home-content__main {
     padding-left: 40px;
 }
 
+/*#work-ex*/
+
+ .s-workex {
+    padding-top: 15rem;
+    padding-bottom: 9rem;
+    background-color: #FFFFFF;
+    position: relative;
+}
 
 /* ------------------------------------------------------------------- 
  * ## timeline - (_site-layout.scss) 
