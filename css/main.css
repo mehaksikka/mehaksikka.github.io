@@ -2533,14 +2533,13 @@ html.no-csstransitions .home-content__main {
 .item-folio__text {
     position: relative;
     left: 0;
-    bottom: 3rem;
     padding: 0;
     z-index: 2;
 }
 
 .item-folio__title {
-    color: #FFFFFF;
-    font-family: "montserrat-semibold", sans-serif;
+    color: #F1F1;
+    font-family: "montserrat-regular", sans-serif;
     font-size: 1.4rem;
     text-transform: uppercase;
     letter-spacing: .2rem;
@@ -2548,7 +2547,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .item-folio__cat {
-    color: rgba(255, 255, 255, 0.5);
+    color: #F1F1;
     font-family: "montserrat-regular", sans-serif;
     font-size: 1.5rem;
     margin-bottom: 0;
