@@ -2401,6 +2401,7 @@ html.no-csstransitions .home-content__main {
 
 .item-folio__thumb img {
 	height: auto;
+	width: 100%;
     vertical-align: top;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
