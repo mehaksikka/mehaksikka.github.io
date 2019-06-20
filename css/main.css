@@ -2204,6 +2204,14 @@ html.no-csstransitions .home-content__main {
     position: relative;
 }
 
+/*#work-ex*/
+.s-workex {
+    padding-top: 15rem;
+    padding-bottom: 9rem;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
 .about-content {
     margin-bottom: 3rem;
 }
@@ -2216,14 +2224,7 @@ html.no-csstransitions .home-content__main {
     padding-left: 40px;
 }
 
-/*#work-ex*/
 
- .s-workex {
-    padding-top: 15rem;
-    padding-bottom: 9rem;
-    background-color: #FFFFFF;
-    position: relative;
-}
 
 /* ------------------------------------------------------------------- 
  * ## timeline - (_site-layout.scss) 
