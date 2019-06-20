@@ -2400,7 +2400,6 @@ html.no-csstransitions .home-content__main {
 }
 
 .item-folio__thumb img {
-	margin-left: 9rem;
     vertical-align: top;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
