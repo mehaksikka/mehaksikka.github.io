@@ -2538,18 +2538,18 @@ html.no-csstransitions .home-content__main {
 }
 
 .item-folio__title {
-    color: #F1F1;
+    color: #F1F1F;
     font-family: "montserrat-regular", sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: .2rem;
     margin: 0;
 }
 
 .item-folio__cat {
-    color: #F1F1;
+    color: #F1F1F;
     font-family: "montserrat-regular", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-bottom: 0;
 }
 
