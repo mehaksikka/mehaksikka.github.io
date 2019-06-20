@@ -2397,6 +2397,7 @@ html.no-csstransitions .home-content__main {
     overflow: hidden;
 	padding-left: 20px;
 	padding-right: 20px;
+	padding-bottom: 20px;
 }
 
 .item-folio__thumb img {
