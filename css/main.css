@@ -3463,11 +3463,11 @@ footer2 {
     color: rgba(255, 255, 255, 0.2);
 }
 
-footer a, footer a:visited {
+footer1 a, footer1 a:visited {
     color: #FFFFFF;
 }
 
-footer a:hover, footer a:focus {
+footer1 a:hover, footer1 a:focus {
     color: #FFFFFF;
 }
 
