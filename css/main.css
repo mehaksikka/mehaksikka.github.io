@@ -3559,7 +3559,7 @@ footer1 a:hover, footer1 a:focus {
 /* Go To Top Button */
 #go-top {
 	position: absolute;
-	top: -24px;
+	padding-top: 8rem;
    left: 50%;
    margin-left: -30px;
 }
