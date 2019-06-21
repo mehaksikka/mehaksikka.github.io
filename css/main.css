@@ -3451,7 +3451,6 @@ html.no-csstransitions .home-content__main {
     font-family: "montserrat-regular", sans-serif;
     font-size: 2rem;
     padding: 6.6rem 0 4.2rem;
-	padding-top: 30px;
     text-align: center;
     color: rgba(255, 255, 255, 0.2);
 }
@@ -3465,6 +3464,7 @@ footer2 {
 }
 
 footer1 a, footer1 a:visited {
+	padding-top: 30px;
     color: #862121;
 }
 
