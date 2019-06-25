@@ -2494,11 +2494,11 @@ html.no-csstransitions .home-content__main {
 }
 
 .item-folio__thumb a {
-    display: block;
+    display: inline;
 }
 
 .item-folio__thumb a::before {
-    display: block;
+    display: inline;
     background-color: rgba(0, 0, 0, 0.8);
     content: "";
     opacity: 0;
@@ -2680,7 +2680,7 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width: 600px) {
-    .masonry .grid-sizer, .masonry__brick,.masonry__center {
+    .masonry .grid-sizer, .masonry__brick,.masonry__centerx {
         width: 100%;
     }
 }
