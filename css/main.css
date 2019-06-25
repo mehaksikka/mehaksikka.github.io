@@ -2354,8 +2354,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 
- .s-works>div {
-    padding-top: 6rem;
+ .s-works {
     padding-top: 6rem;
     padding-bottom: 8rem;
     background-color: #f1f1f1;
@@ -2417,7 +2416,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .item-folio .item-folio__thumb .link-icon {
-   display:block;
+   display: block;
    color: #fff;
    height: 30px;
    width: 30px;
@@ -2681,7 +2680,7 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width: 600px) {
-    .masonry .grid-sizer, .masonry__brick,.masonry__centerx {
+    .masonry .grid-sizer, .masonry__brick {
         width: 100%;
     }
 }
