@@ -2354,7 +2354,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 
- .s-works {
+ .s-works>div {
     padding-top: 6rem;
     padding-bottom: 8rem;
     background-color: #f1f1f1;
