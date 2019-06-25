@@ -2417,7 +2417,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .item-folio .item-folio__thumb .link-icon {
-   display: inline block;
+   display:block;
    color: #fff;
    height: 30px;
    width: 30px;
