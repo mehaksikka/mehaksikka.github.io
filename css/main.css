@@ -2495,11 +2495,11 @@ html.no-csstransitions .home-content__main {
 }
 
 .item-folio__thumb a {
-    display: inline;
+    display: block;
 }
 
 .item-folio__thumb a::before {
-    display: inline;
+    display: block;
     background-color: rgba(0, 0, 0, 0.8);
     content: "";
     opacity: 0;
