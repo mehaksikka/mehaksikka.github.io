@@ -2392,14 +2392,6 @@ html.no-csstransitions .home-content__main {
     padding: 0;
 }
 
-.masonry__center {
-	width: 400px;
-    float: left;
-    padding: 0;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 .item-folio {
     position: relative;
     overflow: hidden;
@@ -2505,7 +2497,7 @@ html.no-csstransitions .home-content__main {
     visibility: hidden;
     position: absolute;
     top: 0;
-    left: 333px;
+    left: 0;
     width: 100%;
     height: 100%;
     -webkit-transition: all 0.5s ease-in-out;
@@ -2646,7 +2638,7 @@ html.no-csstransitions .home-content__main {
     .masonry-wrap {
         width: 1400px;
     }
-    .masonry .grid-sizer, .masonry__brick, .masonry__center {
+    .masonry .grid-sizer, .masonry__brick {
         width: 350px;
     }
 }
@@ -2655,7 +2647,7 @@ html.no-csstransitions .home-content__main {
     .masonry-wrap {
         width: 1200px;
     }
-    .masonry .grid-sizer, .masonry__brick, .masonry__center {
+    .masonry .grid-sizer, .masonry__brick {
         width: 400px;
     }
 }
@@ -2664,7 +2656,7 @@ html.no-csstransitions .home-content__main {
     .masonry-wrap {
         width: 999px;
     }
-    .masonry .grid-sizer, .masonry__brick, .masonry__center {
+    .masonry .grid-sizer, .masonry__brick {
         width: 333px;
     }
 }
@@ -2674,7 +2666,7 @@ html.no-csstransitions .home-content__main {
         width: 90%;
         max-width: 800px;
     }
-    .masonry .grid-sizer, .masonry__brick,.masonry__center {
+    .masonry .grid-sizer, .masonry__brick {
         width: 50%;
     }
 }
