@@ -2393,6 +2393,13 @@ html.no-csstransitions .home-content__main {
 	padding-right: 20px;
 }
 
+.new-item {
+    position: relative;
+    overflow: hidden;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
 .item-folio__thumb img {
 	height: 100%;
 	width: 100%;
@@ -2426,16 +2433,6 @@ html.no-csstransitions .home-content__main {
    margin-top: -15px;
 }
 
-.item-folio .portfolio-item-meta { }
-.item-folio .portfolio-item-meta h5 {
-
-  color: #f1f1f;
-}
-.item-folio .portfolio-item-meta p {
-   font: 12px/18px 'opensans-light', sans-serif;
-   color: #c6c7c7;
-   margin-bottom: 0;
-}
 
 .item-folio__thumb .shadow-overlay {
    position: absolute;
@@ -2600,7 +2597,20 @@ html.no-csstransitions .home-content__main {
     visibility: visible;
 }
 
+.new-item:hover .item-folio__thumb a::before {
+    opacity: 1;
+    visibility: visible;
+}
+
 .item-folio:hover .item-folio__thumb a::after {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.new-item:hover .item-folio__thumb a::after {
     opacity: 1;
     visibility: visible;
     -webkit-transform: scale(1);
@@ -2614,6 +2624,13 @@ html.no-csstransitions .home-content__main {
     transform: scale(1.05);
 }
 
+
+.new-item:hover .item-folio__thumb img {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
 .item-folio:hover .item-folio__project-link {
     opacity: 1;
     visibility: visible;
@@ -2622,7 +2639,13 @@ html.no-csstransitions .home-content__main {
     transform: translate3d(0, 0, 0);
 }
 
-
+.new-item:hover .item-folio__project-link {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
 /* ------------------------------------------------------------------- 
  * responsive:
  * works
@@ -2666,9 +2689,14 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width: 600px) {
+    .new-item {
+        position: absolute;
+    }
+}
+
+@media only screen and (max-width: 600px) {
     .masonry .grid-sizer, .masonry__brick {
         width: 100%;
-		left: 0;
     }
 }
 
