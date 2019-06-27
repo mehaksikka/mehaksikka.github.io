@@ -2690,7 +2690,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 600px) {
     .new-item {
-        position: absolute;
+        position: static;
     }
 }
 
