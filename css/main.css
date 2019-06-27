@@ -2382,7 +2382,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .masonry__brick {
-    float: left;
+    float: center;
     padding: 0;
 }
 
