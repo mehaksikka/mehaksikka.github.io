@@ -2365,12 +2365,6 @@ html.no-csstransitions .home-content__main {
 /* ------------------------------------------------------------------- 
  * ## bricks/masonry - (_site-layout.scss)
  * ------------------------------------------------------------------- */
- .proj-desc {
-   position: relative;
-   padding-left:150px;
-   margin-left:250px;
-}
-
 .masonry-wrap {
     margin-top: 2rem;
     max-width: none;
