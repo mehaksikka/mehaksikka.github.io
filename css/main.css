@@ -2665,13 +2665,6 @@ html.no-csstransitions .home-content__main {
     }
 }
 
-@media only screen and (max-width: 600px)
-{
-	.item-folio
-	{
-		position:absolute;
-	}	
-}
 
 @media only screen and (max-width: 600px) {
     .masonry .grid-sizer, .masonry__brick {
