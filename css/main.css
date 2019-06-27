@@ -2394,6 +2394,8 @@ html.no-csstransitions .home-content__main {
 }
 
 .item-folio__thumb img {
+	margin-left: auto !important;
+    margin-right: auto !important;	
 	height: 100%;
 	width: 100%;
     vertical-align: top;
