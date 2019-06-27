@@ -2669,7 +2669,7 @@ html.no-csstransitions .home-content__main {
 {
 	.item-folio
 	{
-		left:0;
+		left:0 !important;
 	}	
 }
 
