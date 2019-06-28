@@ -2720,7 +2720,8 @@ html.no-csstransitions .home-content__main {
 .popup-modal .description-box h4 {
  font: 15px/24px 'opensans-regular', sans-serif;
  margin-bottom: 12px;
- color: #111;
+ color: #FF6347;
+ font-weight: bold;
 }
 .popup-modal .description-box p {
 font: 14px/24px 'opensans-regular', sans-serif;
