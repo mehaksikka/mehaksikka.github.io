@@ -2368,7 +2368,7 @@ html.no-csstransitions .home-content__main {
 .masonry-wrap {
     margin-top: 2rem;
     max-width: none;
-    width: 800px;
+    width: 1600px;
 }
 
 .masonry:after {
@@ -2662,7 +2662,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 1500px) {
     .masonry-wrap {
-        width: 1200px;
+        width: 1100px;
     }
     .masonry .grid-sizer, .masonry__brick {
         width: 400px;
