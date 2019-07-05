@@ -2368,7 +2368,7 @@ html.no-csstransitions .home-content__main {
 .masonry-wrap {
     margin-top: 2rem;
     max-width: none;
-    width: 1600px;
+    width: 800px;
 }
 
 .masonry:after {
