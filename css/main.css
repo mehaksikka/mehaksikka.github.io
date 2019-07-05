@@ -2686,10 +2686,6 @@ html.no-csstransitions .home-content__main {
     .masonry .grid-sizer, .masonry__brick {
         width: 50%;
     }
-	.new-item
-	{
-		left: 333px !important;
-	}
 }
 
 @media only screen and (max-width: 600px) {
