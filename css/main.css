@@ -2687,7 +2687,8 @@ html.no-csstransitions .home-content__main {
         width: 999px;
     }
 	.masonry-new {
-        width: 999px;
+		width: 90%
+        width: 800px;
     }
     .masonry .grid-sizer, .masonry__brick {
         width: 333px;
@@ -2696,10 +2697,6 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 1099px) {
     .masonry-wrap {
-        width: 90%;
-        max-width: 800px;
-    }
-	.masonry-new {
         width: 90%;
         max-width: 800px;
     }
